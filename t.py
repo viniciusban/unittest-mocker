@@ -2,7 +2,7 @@
 
 import unittest
 
-from mocker import mocker
+from unittest_mocker import mocker
 
 import func
 from func import soma, SomeClass
