@@ -7,6 +7,9 @@ Starring, the `@mocker` decorator:
 ```
 import os
 
+from unittest_mocker import mocker
+
+
 class UnixFS:
     @staticmethod
     def rm(filename):
@@ -26,6 +29,9 @@ You don't need levels of context managers or stacked decorators. Only one `mocke
 ```
 import datetime
 import os
+
+from unittest_mocker import mocker
+
 
 class MyTestCase(unittest.TestCase):
     @mocker
