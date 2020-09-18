@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
 ```
 
 
-You don't need a context manager or stacked decorators. With the `mocker` parameter you mock everything.
+You don't need a context manager or stacked decorators. Only one `mocker` parameter is enough.
 
 
 WIP
